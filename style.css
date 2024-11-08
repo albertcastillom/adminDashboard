@@ -55,6 +55,7 @@ body{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr 1fr 1fr;
+    gap: 25px;
 }
 
 .projects{
@@ -83,4 +84,51 @@ button{
     background-color: #0ea5e9;
     border-radius: 15px;
     border: none;
+}
+
+.main-content{
+    padding: 25px;
+}
+
+.card{
+    background-color: white;
+    border-radius: 10px;
+    border-left: solid 10px;
+    border-left-color: rgb(234, 212, 72);
+   padding: 20px;
+    margin-right: 25px;
+    height: 150px;
+}
+
+.card h3{
+    margin: 0px;
+}
+.card p{
+    margin-top: 8px;
+}
+
+.announcement-container{
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.announcement-announcments h3{
+    margin-top: 0px;
+    margin-bottom: 8px;
+}
+.announcement-announcments{
+    border-bottom: 2px solid lightgrey;
+    margin-bottom: 10px;
+}
+
+.trending-users{
+    background-color: white;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.trending-users h4, .trending-users p{ 
+   margin-top: 8px;
+   margin-bottom: 8px;
 }
